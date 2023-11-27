@@ -1,0 +1,33 @@
+body {
+	background-color: black;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+}
+
+.paper {
+	width: 200px;
+	height: 200px;
+	border: 5px solid white;
+	position: absolute;
+	border-radius: 50%;
+}
+
+.red {
+	background-color: red;
+	z-index: 2;
+  margin-top: 50px;
+}
+
+.blue {
+	background-color: blue;
+	z-index: 3;
+	margin-top: 50px;
+}
+.skyblue {
+	background-color: skyblue;
+	z-index: 1;
+	margin-top: 50px;
+}
